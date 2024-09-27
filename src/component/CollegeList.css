@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F9FA; /* Light background for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff; /* White background for the table */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevents border-radius from affecting child elements */
+}
+
+h1 {
+    text-align: center;
+    color: #333333; /* Dark text for the title */
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #E0E0E0; /* Light border for the cells */
+}
+
+th {
+    background-color: #007BFF; /* Primary color for header */
+    color: #ffffff; /* White text for header */
+    text-transform: uppercase; /* Uppercase header text */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+tr:hover {
+    background-color: #D1E7FD; /* Highlight color on hover */
+}
+
+td {
+    color: #343a40; /* Dark gray text for table cells */
+    font-size: 1em; /* Font size for readability */
+}
+
+ul {
+    padding-left: 20px; /* Padding for nested lists */
+}
+
+ul li {
+    margin-bottom: 5px; /* Spacing between list items */
+}
+
+.footer {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 0.9em; /* Smaller text for the footer */
+    color: #6c757d; /* Muted text color */
+}
